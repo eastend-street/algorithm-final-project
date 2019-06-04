@@ -1,5 +1,14 @@
+.container{
+    padding: 2em;
+}
+
+.container > h1{
+    padding-bottom: 1em;
+}
+
 .container > nav{
-    display: block;    
+    display: block;
+    padding-bottom: 3em;
 }
 
 .container > nav > li{
