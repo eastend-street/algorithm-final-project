@@ -1,0 +1,21 @@
+body {
+   background-color: white;
+   font-family: 'Permanent Marker', cursive;
+}
+h2 {
+    font-size: 40px;
+    margin-top: 35px;
+    text-align: center;
+
+}
+p {
+    font-size: 22px;
+    text-align: justify;
+    block-size: border-box;
+    margin-top: 50px;
+    letter-spacing: 5px;
+    border: 5px dashed red;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding: 10px;
+}
