@@ -16,7 +16,38 @@
     <title>Algorithm Project - Contact</title>
   </head>
   <body>
-    <div id="header"></div>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand text-white" href="index.html">De boa</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse text-white"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active text-white" href="index.html"
+              >Home</a
+            >
+            <a class="nav-item nav-link text-white" href="sorting.html"
+              >Sorting</a
+            >
+            <a class="nav-item nav-link text-white" href="contact.html"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
     <h1>Contact us</h1>
     <ul>
       <li>
@@ -44,7 +75,11 @@
         <p>alanrocky81@icloud.com</p>
       </li>
     </ul>
-    <div id="footer"></div>
+    <footer>
+      <div class="footer-copyright text-center py-3">
+        &copy; De Boa 2019 All rights reserved.
+      </div>
+    </footer>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -60,11 +95,5 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <script>
-      $(function() {
-        $("#header").load("./common/header.html");
-        $("#footer").load("./common/footer.html");
-      });
-    </script>
   </body>
 </html>

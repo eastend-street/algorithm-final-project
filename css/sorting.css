@@ -1,34 +1,36 @@
-.container{
-    padding: 2em;
+.container {
+  padding: 2em;
 }
 
-.container > h1{
-    padding-bottom: 1em;
+.container > h1 {
+  padding-bottom: 1em;
 }
 
-.container > nav{
-    display: block;
-    padding-bottom: 3em;
+.container > nav {
+  display: block;
+  padding-bottom: 3em;
 }
 
-.container > nav > li{
-    padding: 1em;
+.container > nav > li {
+  padding: 1em;
 }
 
-.list-group{
-    padding: 1em;
+.list-group {
+  padding: 1em;
 }
 
-.list-group > li{
-    padding: 1em;
-    margin-bottom: 3em;
+.list-group > li {
+  padding: 1em;
+  margin-bottom: 3em;
 }
 
-.list-group > .list-group-item > section.code{
-    width: 95%;
-    height: auto;
-    margin: 0 auto;
-    background: #1D1E21;
-    color:#94B188;
-    padding: 1em 2em;
+.list-group > .list-group-item > section.code {
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+  background: #1d1e21;
+}
+
+.list-group > .list-group-item > section > pre {
+  color: #94b188;
 }
