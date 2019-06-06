@@ -1,20 +1,12 @@
-body {
-   background-color: white;
+.container {
+  padding: 2em;
 }
-h2 {
-    font-size: 2em;
-    margin-top: 2em;
-    text-align: center;
 
+h1 {
+  text-align: center;
 }
 p {
-    font-size: 1.5em;
-    text-align: justify;
-    block-size: border-box;
-    margin-top: 3em;
-    letter-spacing: 0.3em;
-    border: 0.3em dashed red;
-    margin-left: 10em;
-    margin-right: 10em;
-    padding: 0.6em;
+  font-size: 2em;
+  block-size: border-box;
+  margin: 3em;
 }
