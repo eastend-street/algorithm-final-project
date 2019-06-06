@@ -1,2 +1,22 @@
+h1 {
+  font-size: 1.5em;
+  margin: 3em 5em 5em 5em;
+  border: 5px ridge black;
+  padding: 5em;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
 
+ul {
+  margin: 5em;
+}
 
+li {
+    margin-top: 3em;
+}
+
+img {
+  padding: 0.5em;
+  width: 20em;
+}
