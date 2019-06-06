@@ -106,20 +106,17 @@
           <h5>Bubble Sort</h5>
           <section class="code">
             <pre><code>
-              def bubbleSort(arr):
-                n = len(arr)
-                for i in range(n):
-                  for j in range(0, n-i-1):
-                    if arr[j] > arr[j+1] :
-                      arr[j], arr[j+1] = arr[j+1], arr[j]
-              
-              arr = [64, 34, 25, 12, 22, 11, 90]
-              
-              bubbleSort(arr)
-              
-              print ("Sorted array is:")
-              for i in range(len(arr)):
-                print ("%d" %arr[i]),
+              def sort (num):
+                for i in range (len(num)-1,0,-1):
+                    for j in range(i):
+                        if num [j]>num[j+1]:
+                            temp = num[j]
+                            num[j] = num[j+1]
+                            num[j+1] = temp
+              num = [5, 3, 8, 6, 7, 2]
+              sort(num)
+
+              print(num)
             </code></pre>
           </section>
         </li>
